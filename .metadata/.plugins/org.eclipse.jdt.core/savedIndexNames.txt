@@ -1,0 +1,25 @@
+INDEX VERSION 1.131+C:\Users\User\eclipse-workspace\BIXPMTOOL\.metadata\.plugins\org.eclipse.jdt.core
+277644806.index
+1546566050.index
+3737164472.index
+633594143.index
+1290116678.index
+1289320443.index
+86787397.index
+2504431975.index
+2840057964.index
+2289053612.index
+3333483909.index
+1028485017.index
+4391354.index
+3660706986.index
+3176864693.index
+3180207815.index
+1950101464.index
+4251315780.index
+4235424189.index
+2970020879.index
+1337053044.index
+1511161256.index
+2931920173.index
+1828026965.index

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.bixbytes.bpmt.utilities.ExtentReportNG"/>
+    <listener class-name="com.bixbytes.bpmt.utilities.ITestListner"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="Negative Testacase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.bixbytes.bpmt.login.testcases.TC7_Sign_In_From_Forgot_Password_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="forgotpassword_page_verification"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bixbytes.bpmt.login.testcases.TC7_Sign_In_From_Forgot_Password_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

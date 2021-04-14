@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 02 16:34:11 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>993 seconds (993018 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases.tc1_add_admin_user_test()'><b>tc1_add_admin_user_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases</td>
+<td></td>
+<td>66</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases@4b8ee4de</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Update_User_Testcase.tc1_update_user()'><b>tc1_update_user</b><br>Test class: com.bixbytes.bpmt.users.testcases.Update_User_Testcase</td>
+<td></td>
+<td>22</td>
+<td>com.bixbytes.bpmt.users.testcases.Update_User_Testcase@1b11171f</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.login.testcases.Login_Testcases.tc1_valid_login_test()'><b>tc1_valid_login_test</b><br>Test class: com.bixbytes.bpmt.login.testcases.Login_Testcases</td>
+<td></td>
+<td>13</td>
+<td>com.bixbytes.bpmt.login.testcases.Login_Testcases@4310d43</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.User_Search_Testcases.tc1_valid_usersearch()'><b>tc1_valid_usersearch</b><br>Test class: com.bixbytes.bpmt.users.testcases.User_Search_Testcases</td>
+<td></td>
+<td>16</td>
+<td>com.bixbytes.bpmt.users.testcases.User_Search_Testcases@1151e434</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases.tc1_verify_empty_error_messages_in_add_user_page_test()'><b>tc1_verify_empty_error_messages_in_add_user_page_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases</td>
+<td></td>
+<td>13</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases@27f981c6</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases.tc2_add_sales_user_test()'><b>tc2_add_sales_user_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases</td>
+<td></td>
+<td>67</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases@4b8ee4de</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.login.testcases.Login_Testcases.tc2_invalid_login_test()'><b>tc2_invalid_login_test</b><br>Test class: com.bixbytes.bpmt.login.testcases.Login_Testcases</td>
+<td></td>
+<td>12</td>
+<td>com.bixbytes.bpmt.login.testcases.Login_Testcases@4310d43</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.User_Search_Testcases.tc2_invalid_usersearch()'><b>tc2_invalid_usersearch</b><br>Test class: com.bixbytes.bpmt.users.testcases.User_Search_Testcases</td>
+<td></td>
+<td>15</td>
+<td>com.bixbytes.bpmt.users.testcases.User_Search_Testcases@1151e434</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases.tc2_verify_add_user_firstname_and_lastname_length_error_test()'><b>tc2_verify_add_user_firstname_and_lastname_length_error_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases</td>
+<td></td>
+<td>47</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases@27f981c6</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases.tc3_add_management_user_test()'><b>tc3_add_management_user_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases</td>
+<td></td>
+<td>67</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases@4b8ee4de</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.login.testcases.UserName_Verification_Testcases.tc3_username_after_email_test()'><b>tc3_username_after_email_test</b><br>Test class: com.bixbytes.bpmt.login.testcases.UserName_Verification_Testcases</td>
+<td></td>
+<td>16</td>
+<td>com.bixbytes.bpmt.login.testcases.UserName_Verification_Testcases@54a7079e</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases.tc3_verify_add_user_emailid_format_error_test()'><b>tc3_verify_add_user_emailid_format_error_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases</td>
+<td></td>
+<td>47</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases@27f981c6</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases.tc4_add_lead_user_test()'><b>tc4_add_lead_user_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases</td>
+<td></td>
+<td>66</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases@4b8ee4de</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.login.testcases.Logout_Testcases.tc4_logout()'><b>tc4_logout</b><br>Test class: com.bixbytes.bpmt.login.testcases.Logout_Testcases</td>
+<td></td>
+<td>12</td>
+<td>com.bixbytes.bpmt.login.testcases.Logout_Testcases@26e356f0</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases.tc4_verify_add_user_mobile_no_format_error_test()'><b>tc4_verify_add_user_mobile_no_format_error_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases</td>
+<td></td>
+<td>47</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases@27f981c6</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases.tc5_add_member_user_test()'><b>tc5_add_member_user_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases</td>
+<td></td>
+<td>67</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Positive_Testcases@4b8ee4de</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.login.testcases.Fogot_Password_Testcases.tc5_forgotpassword_negative_testcase()'><b>tc5_forgotpassword_negative_testcase</b><br>Test class: com.bixbytes.bpmt.login.testcases.Fogot_Password_Testcases</td>
+<td></td>
+<td>4</td>
+<td>com.bixbytes.bpmt.login.testcases.Fogot_Password_Testcases@47d9a273</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases.tc5_verify_add_user_address_and_bloodgroup_length_error_test()'><b>tc5_verify_add_user_address_and_bloodgroup_length_error_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases</td>
+<td></td>
+<td>47</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases@27f981c6</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.login.testcases.Fogot_Password_Testcases.tc6_forgotpassword_positive_testcase()'><b>tc6_forgotpassword_positive_testcase</b><br>Test class: com.bixbytes.bpmt.login.testcases.Fogot_Password_Testcases</td>
+<td></td>
+<td>4</td>
+<td>com.bixbytes.bpmt.login.testcases.Fogot_Password_Testcases@47d9a273</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases.tc6_verify_add_user_employee_id_length_error_test()'><b>tc6_verify_add_user_employee_id_length_error_test</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases</td>
+<td></td>
+<td>13</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases@27f981c6</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.login.testcases.Fogot_Password_Testcases.tc7_forgot_pasword_to_signin_page_test()'><b>tc7_forgot_pasword_to_signin_page_test</b><br>Test class: com.bixbytes.bpmt.login.testcases.Fogot_Password_Testcases</td>
+<td></td>
+<td>1</td>
+<td>com.bixbytes.bpmt.login.testcases.Fogot_Password_Testcases@47d9a273</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases.tc7_verify_add_user_duplicate_data_errors()'><b>tc7_verify_add_user_duplicate_data_errors</b><br>Test class: com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases</td>
+<td></td>
+<td>60</td>
+<td>com.bixbytes.bpmt.users.testcases.Add_User_Error_Message_Verification_Testcases@27f981c6</td></tr>
+<tr>
+<td title='com.bixbytes.bpmt.login.testcases.Login_Testcases.tc8_verify_email_and_password_errors()'><b>tc8_verify_email_and_password_errors</b><br>Test class: com.bixbytes.bpmt.login.testcases.Login_Testcases</td>
+<td></td>
+<td>6</td>
+<td>com.bixbytes.bpmt.login.testcases.Login_Testcases@4310d43</td></tr>
+</table><p>
+</body>
+</html>
